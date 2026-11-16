@@ -1,0 +1,17 @@
+{
+  "name": "volt-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Volt Explorer : explorer un programme politique de Volt (prototype indépendant, non officiel).",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node tests/static-server.mjs",
+    "test": "node --test",
+    "test:e2e": "node tests/e2e.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.50.0"
+  }
+}
